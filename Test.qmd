@@ -1,0 +1,61 @@
+---
+title: "Test - Prosjekt"
+author: "Simen"
+format: html
+editor: visual
+---
+
+## Simen sitt forsøk på lage ferdig dokumenter og presentasjoner
+
+Tekst for å forklare ka du har laget:
+
+Mål her:
+
+lage mal for løse oppgaver for tidy tuesday
+
+Lage mal for rask og smooth opplasting av kode og output for github
+
+Husk å lær basics. R, github, publishing, tidytuesday, ggplot alt
+
+Kode for å starte opp
+
+```{r}
+
+#install.packages("tidytuesdayR")
+#install.packages("tidyverse")
+
+
+library(tidyverse)
+library(tidytuesdayR)
+theme_set(theme_light())
+
+
+
+```
+
+## Laste inn data
+
+```{r}
+
+
+tt <- tt_load("2022-08-09")
+
+data <-wheels$tt
+
+```
+
+#The `echo: false` option disables the printing of code (only output is displayed).
+
+Data exploration
+
+```{r}
+#| echo: false
+
+
+
+
+
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
