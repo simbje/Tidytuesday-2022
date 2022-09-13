@@ -5,6 +5,14 @@ format: html
 editor: visual
 ---
 
+# 
+
+#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
+
+------------------------------------------------------------------------
+
+Simen sin git commit nr. 2
+
 ## Simen sitt forsøk på lage ferdig dokumenter og presentasjoner
 
 Tekst for å forklare ka du har laget:
@@ -21,8 +29,6 @@ Kode for å starte opp
 
 ```{r}
 
-#install.packages("tidytuesdayR")
-#install.packages("tidyverse")
 
 
 library(tidyverse)
